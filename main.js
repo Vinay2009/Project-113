@@ -11,11 +11,12 @@ function setup() {
 }
 
 function draw() {
-  image(video, 0, 0, 700, 500);
+  image(video, 0, 0, 640, 480);
   tint(tint_color);
+  stroke(0, 100, 0);
   circle(350, 50, 70);
-  rectangle(450, 30, 55, 25);
-  square(550, 10, 200, 200);
+  rect(450, 30, 155, 100);
+  square(50, 10, 200, 200);
 }
 
 function take_snapshot(){
